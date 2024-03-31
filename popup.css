@@ -1,76 +1,101 @@
 /* popup.css */
 body {
-    font-family: 'Arial', sans-serif;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    width: 400px; /* Set a fixed width */
-    height: 600px; /* Set a fixed height */
-    display: flex;
-    flex-direction: column;
-  }
-  
-  header {
-    background-color: #4CAF50; /* Green */
-    padding: 10px;
-    color: white;
-    text-align: center;
-  }
-  
-  .logo {
-    max-width: 80%; /* Adjust as necessary */
-    max-height: 100px; /* Adjust as necessary */
-    margin: 20px 0; /* Gives space from top and bottom */
-  }
-  
-  #offers {
-    flex: 1;
-    overflow-y: auto; /* Allow scrolling for the offers section */
-  }
-  
-  footer {
-    background-color: #333;
-    padding: 10px;
-  }
-  
-  button {
-    background-color: #28a745; /* Green color */
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 12px 20px;
-    margin: 10px 0;
-    cursor: pointer;
-    font-size: 16px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    transition: background-color 0.3s, box-shadow 0.3s;
-  }
-  
-  button:hover {
-    background-color: #218838; /* Darker green */
-    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
-  }
-  
-  button:focus {
-    outline: none; /* Removes the outline */
-    border: 1px solid #fff; /* Optional: adds a white border when the button is focused */
-  }
-  
-  button:active {
-    background-color: #1e7e34; /* Even darker green */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-  }
-  
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f8f1; /* A light natural green background */
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 400px;
+  min-height: 600px; /* Increased dimensions */
+}
 
-  #check {
-    display: block;
-    margin: 20px auto; /* Auto margins center block elements */
-    /* other button styles */
-  }
+header {
+  background-color: #4CAF50; /* Eco-friendly green */
+  color: white;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 15px; /* Space below header */
+}
 
-  .status-message {
-    color: green;
-    margin: 10px 0;
-    text-align: center;
-  }
-  
+header img.logo {
+  max-width: 100px;
+  height: auto;
+  margin: 0 auto; /* Center logo */
+}
+
+h1 {
+  font-size: 24px; /* Larger text for the title */
+  margin: 0;
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 90%; /* Width with some padding from the sides */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+h2 {
+  font-size: 18px;
+  color: #4CAF50; /* Eco-friendly green for section titles */
+  margin-bottom: 15px;
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+ul {
+  padding-left: 20px; /* Standard padding for list items */
+  list-style-type: disc; /* Bullet points for list items */
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  padding: 15px 0;
+  margin-top: auto; /* Push footer to the bottom */
+}
+
+footer a {
+  color: #4CAF50;
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 20px; /* Space above the button */
+}
+
+button#check {
+  background-color: #44c767;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  width: 80%; /* Button width relative to its container */
+  box-sizing: border-box;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button#check:hover {
+  background-color: #398439; /* Slightly darker on hover */
+  transform: translateY(-2px); /* Slight move up on hover */
+}
+
+.status-message {
+  display: none; /* Hide initially */
+  font-style: italic;
+  color: #4CAF50;
+  margin-top: 15px;
+}
