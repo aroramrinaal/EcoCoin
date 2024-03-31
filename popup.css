@@ -1,0 +1,76 @@
+/* popup.css */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 400px; /* Set a fixed width */
+    height: 600px; /* Set a fixed height */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    background-color: #4CAF50; /* Green */
+    padding: 10px;
+    color: white;
+    text-align: center;
+  }
+  
+  .logo {
+    max-width: 80%; /* Adjust as necessary */
+    max-height: 100px; /* Adjust as necessary */
+    margin: 20px 0; /* Gives space from top and bottom */
+  }
+  
+  #offers {
+    flex: 1;
+    overflow-y: auto; /* Allow scrolling for the offers section */
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  button {
+    background-color: #28a745; /* Green color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  button:hover {
+    background-color: #218838; /* Darker green */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  }
+  
+  button:focus {
+    outline: none; /* Removes the outline */
+    border: 1px solid #fff; /* Optional: adds a white border when the button is focused */
+  }
+  
+  button:active {
+    background-color: #1e7e34; /* Even darker green */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  
+
+  #check {
+    display: block;
+    margin: 20px auto; /* Auto margins center block elements */
+    /* other button styles */
+  }
+
+  .status-message {
+    color: green;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
