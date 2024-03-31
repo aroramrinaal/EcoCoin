@@ -94,7 +94,7 @@ button#check:hover {
 }
 
 .status-message {
-  display: none; /* Hide initially */
+  display: block; /* Hide initially */
   font-style: italic;
   color: #4CAF50;
   margin-top: 15px;
