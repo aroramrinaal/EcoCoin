@@ -1,4 +1,4 @@
-# EcoCoin Extension
+ EcoCoin Extension
 
 ## Inspiration
 In a world where every choice counts, and every decision has an impact, EcoCoin emerges as a beacon of hope and transformation. It's designed to empower users to make environmentally conscious choices effortlessly and to reward them for contributing to a sustainable planet.
