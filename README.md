@@ -1,4 +1,11 @@
 # EcoCoin Extension
+<p align="center">
+<img width="1440" alt="Screenshot 2024-07-20 at 10 52 29" src="">
+</p>
+
+<p align="center">
+<img width="1440" alt="Screenshot 2024-07-20 at 10 52 29" src="">
+</p>
 
 ## Inspiration
 In a world where every choice counts, and every decision has an impact, EcoCoin emerges as a beacon of hope and transformation. It's designed to empower users to make environmentally conscious choices effortlessly and to reward them for contributing to a sustainable planet.
