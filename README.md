@@ -1,10 +1,10 @@
 # EcoCoin Extension
 <p align="center">
-<img width="1440" alt="Screenshot 2024-07-20 at 10 52 29" src="">
+<img width="1440" alt="Screenshot 2024-07-20 at 10 52 29" src="https://raw.githubusercontent.com/aroramrinaal/EcoCoin/master/Gallery%20806x504.jpg">
 </p>
 
 <p align="center">
-<img width="1440" alt="Screenshot 2024-07-20 at 10 52 29" src="">
+<img width="1440" alt="Screenshot 2024-07-20 at 10 52 29" src="https://raw.githubusercontent.com/aroramrinaal/EcoCoin/master/gallery123.jpg">
 </p>
 
 ## Inspiration
